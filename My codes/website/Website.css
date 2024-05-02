@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Chameleon;
+    src: url(Chameleon.ttf);
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(5669622.jpg);
+}
+.logo {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(Sky.jpg);
+    text-align: center;
+    border: 2000px;
+    font-size: 25px;
+    margin-bottom: -35px;
+    font-family: 'Chameleon', sans-serif;
+    text-shadow: 2px 2px #69706b;
+    box-shadow: 5px 2px 4px 3px #69706b;
+    font-stretch: expanded;
+}
+#ress{
+    color: whitesmoke;
+}
+.menu_list {
+    align-items: center;
+    background-color: #c7ffff;
+    box-shadow: 5px 2px 4px 3px #69706b;
+}
+.menu_list ul {
+    list-style: none;
+    display: flex;
+}
+.menu_list ul li {
+    padding: 10px 90px;
+    position: relative;
+}
+.menu_list ul li a {
+    color: #6738e8;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 1px 1px #69706b;
+
+    transition: all 0.3s;
+}
+.menu_list ul li a:hover {
+    color: gold;
+}
+.dropdown_menu {
+    display: none;
+}
+.menu_list ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    border: 225px;
+    left: -55px;
+    top: 100%;
+    background-color:#c7ffff ;
+    text-shadow: 1px 1px #69706b;
+    box-shadow: 5px 2px 4px 3px #69706b;
+}
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li {
+    width: 15px;
+    margin: 5px;
+}
+.main {
+    align-items: center;
+    
+}
+.rando {
+    text-align: center;
+    font-family: 'chameleon',sans-serif;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.supertiny {
+    font-family: 'chameleon',sans-serif;
+    text-align: center;
+    font-size: 9px;
+}
