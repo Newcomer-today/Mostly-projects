@@ -12,6 +12,10 @@ body {
     border-radius: 10%;
     display: block;
     box-shadow: 3px 10px 20px 2px;
+    background: url(checkmark.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .bigtext {
     font-weight: bolder;

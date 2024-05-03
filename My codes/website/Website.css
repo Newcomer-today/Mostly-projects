@@ -103,6 +103,7 @@ body {
     transition: 0.4s;
 }
 .buy:hover {
+    cursor: default;
     opacity: 1;
     transform: scale(1.5);
 }
